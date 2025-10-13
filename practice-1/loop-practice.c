@@ -8,18 +8,25 @@
 //         printf("200\n");
 //     };
 // }
-#include <stdio.h>
-
-int main()
-{
-    for (int i = 99; i >= 1; i=i-2)
-    {
-       if(i==51){
-        continue;;
-       }
-        printf("%d\n",i);
-    };
+int main() {
+    int A;
+    long long int B;
+    float C;
+    char D;
+    scanf("%d", &A);
+    scanf("%lld", &B);
+    scanf("%f", &C);
+    scanf("%c", &D);
+    
+    printf("%d\n", A);
+    printf("%lld\n", B);
+    printf("%f\n", C);
+    printf("%c\n", D);
+    
+    return 0;
 }
+
+
 // #include <stdio.h>
 
 // int main()
